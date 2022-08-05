@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@rails/webpacker": "5.4.3",
+    "bootstrap": "3.4.1",
+    "jquery": "3.4.1",
+    "popper.js": "^1.16.1",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.1",
+    "@types/jquery": "^3.5.14",
+    "webpack-dev-server": "^3"
+  }
+}

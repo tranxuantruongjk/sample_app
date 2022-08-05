@@ -3,7 +3,9 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.1.2"
 
+gem "autoprefixer-rails"
 gem "bcrypt", "3.1.13"
+
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "importmap-rails"
@@ -15,6 +17,10 @@ gem "rails-i18n"
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "turbo-rails"
+gem "webpacker", "~> 5.0"
+gem "jquery-rails"
+gem "bootstrap"
+gem "sassc-rails"
 
 gem "bootsnap", require: false
 gem "net-smtp", require: false
