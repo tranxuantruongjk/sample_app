@@ -1,0 +1,48 @@
+vi:
+  base_title: "Ruby on Rails Tutorial Sample App"
+  global:
+    menu:
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      by: "bởi"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      welcome: "Chào mừng tới Sample App"
+      intro1: "Đây là trang web cho"
+      intro2: "với ví dụ."
+      intro3: "Hướng dẫn Ruby on Rails"
+      signupnow: "Đăng ký ngay!"
+    help:
+      help: "Trợ giúp"
+      intro1: "Tìm kiếm sự trợ giúp ở"
+      intro2: "Trang trợ giúp hướng dẫn Rails"
+      intro3: "Có thể tìm kiếm giúp đỡ về ví dụ ở"
+      intro4: "Hướng dẫn Ruby on Rails"
+    about:
+      about: "Thông tin"
+      part: "phần của tập hợp những hướng dẫn"
+      learn_enough: "Learn Enough,"
+      intro1: "là một"
+      book: "cuốn sách"
+      and: "và"
+      series: "những chuỗi screencast"
+      intro2: "để dạy phát triển web với"
+      intro3: "Đây là ví dụ mẫu."
+    contact:
+      contact: "Liên hệ"
+      intro1: "Liên hệ với trang chủ chính thức Ruby on Rails ở"
+      intro2: "đây"
+  users:
+    new:
+      signup: "Đăng ký"
+      intro: "Đây là trang đăng ký cho người mới."
