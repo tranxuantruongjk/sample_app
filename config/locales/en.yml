@@ -19,7 +19,6 @@ en:
     home:
       home: "Home"
       welcome: "Welcome to Sample App"
-      login: "Login"
       intro1: "This is the home page for the"
       intro2: "sample application."
       intro3: "Ruby on Rails Tutorial"
@@ -48,3 +47,20 @@ en:
     new:
       signup: "Sign up"
       intro: "This will be a signup page for new users."
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+    show:
+      not_found_user: "Not found user"
+    create:
+      welcome: "Welcome to the Sample App!"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+  shared:
+    error_messages:
+      error: "error"

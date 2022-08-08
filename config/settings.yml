@@ -12,4 +12,6 @@ validates:
   name_max_length: 50
   password_min_length: 6
   email_max_length: 255
-  email_regex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+users:
+  gravatar_url_length: 80
