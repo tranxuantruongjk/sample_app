@@ -18,4 +18,16 @@ class User < ApplicationRecord
   def downcase_email
     email.downcase!
   end
+
+  # Returns the hash digest of the given string.
+  class << self
+    def digest string
+      cost = if ActiveModel::SecurePassword.min_cost
+               BCrypt::Engine::MIN_COST
+             else
+               BCrypt::Engine.cost
+             end
+      BCrypt::Password.create string, cost:
+    end
+  end
 end
