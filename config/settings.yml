@@ -15,3 +15,6 @@ validates:
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 users:
   gravatar_url_length: 80
+  avatar_url_length: 50
+pagy:
+  items_per_page: 30
