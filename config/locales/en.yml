@@ -68,6 +68,7 @@ en:
       all_users: "All users"
     create:
       welcome: "Welcome to the Sample App!"
+      check_for_activate: "Please check your email to active your account."
     update:
       updated: "Profile updated"
       update_failed: "Update failed"
@@ -83,6 +84,7 @@ en:
   sessions:
     create:
       invalid_combination: "Invalid email/password combination"
+      not_activated: "Account not activated. Check your email for the activation link."
     new:
       login: "Log in"
       new_user: "New user?"
@@ -90,3 +92,13 @@ en:
       email: "Email"
       password: "Password"
       remember_me: "Remember me on this computer"
+  account_activations:
+    edit:
+      activated: "Account activated!"
+      invalid_activation: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      subject: "Account activation"
+      intro: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
