@@ -1,6 +1,7 @@
 en:
-  hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  not_found_user: "Not found user"
+  please_log_in: "Please log in."
   global:
     menu:
       english: "English"
@@ -52,20 +53,30 @@ en:
     new:
       signup: "Sign up"
       intro: "This will be a signup page for new users."
-      confirmation: "Confirmation"
       create_my_account: "Create my account"
-    show:
-      not_found_user: "Not found user"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+    edit:
+      edit: "Edit user"
+      update: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+    index:
+      all_users: "All users"
     create:
       welcome: "Welcome to the Sample App!"
-  activerecord:
-    models:
-      user: "User"
-    attributes:
-      user:
-        name: "Name"
-        email: "Email"
-        password: "Password"
+    update:
+      updated: "Profile updated"
+      update_failed: "Update failed"
+    destroy:
+      deleted: "User deleted"
+      delete_failed: "Delete failed"
+    user:
+      delete: "Delete"
+      you_sure: "You sure?"
   shared:
     error_messages:
       error: "error"
