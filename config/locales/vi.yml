@@ -29,6 +29,7 @@ vi:
       intro2: "với ví dụ."
       intro3: "Hướng dẫn Ruby on Rails"
       signupnow: "Đăng ký ngay!"
+      feed: "Bảng tin micropost"
     help:
       help: "Trợ giúp"
       intro1: "Tìm kiếm sự trợ giúp ở"
@@ -81,6 +82,14 @@ vi:
   shared:
     error_messages:
       error: "lỗi"
+      form_contain: "Biểu mẫu này bao gồm"
+    micropost_form:
+      placeholder: "Viết bài mới..."
+      post_text: "Đăng"
+      img_size_error: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+    user_info:
+      view_profile: "xem hồ sơ"
+      micropost: "micropost"
   sessions:
     create:
       invalid_combination: "Email/Mật khẩu không tồn tại"
@@ -109,6 +118,7 @@ vi:
       password_reset_expired: "Yêu cầu đặt lại mật khẩu đã hết hạn"
       reset_password: "Đặt lại mật khẩu"
       update_text: "Cập nhật mật khẩu"
+      in_actived: "Người dùng chưa được kích hoạt!"
     new:
       forgot_password: "Quên mật khẩu"
       submit_text: "Xác nhận"
@@ -123,3 +133,19 @@ vi:
       intro1: "Để đặt lại mật khẩu, hãy nhấn liên kết dưới đây:"
       intro2: "Liên  kết này sẽ hết hạn trong 2 giờ."
       intro3: "Nếu bạn không yêu cầu đặt lại mật khẩu, hãy bỏ qua email này và mật khẩu của bạn vẫn như vậy."
+  microposts:
+    create:
+      success: "Tạo micropost thành công!"
+    destroy:
+      success: "Đã xóa micropost"
+      fail: "Xóa micropost thất bại"
+      invalid: "Micropost không tồn tại"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước."
+      delete: "Xóa"
+      you_sure: "Bạn chắc chắn chứ?"
+  models:
+    micropost:
+      valid_format: "cần phải đúng định dạng hình ảnh"
+      should_less_than: "cần nhỏ hơn 5MB"

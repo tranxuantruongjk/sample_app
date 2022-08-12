@@ -22,3 +22,9 @@ mailer:
   from: "xuantruonghy823@gmail.com"
 password_reset:
   expired_time: 2
+micropost:
+  content_max_length: 140
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  image_size: 5
+  resize_to_limit: [500, 500]
+  accept_path: "image/jpeg,image/gif,image/png"
