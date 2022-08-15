@@ -17,4 +17,6 @@ users:
   gravatar_url_length: 80
   avatar_url_length: 50
 pagy:
-  items_per_page: 30
+  items_per_page: 10
+mailer:
+  from: "xuantruonghy823@gmail.com"
