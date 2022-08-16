@@ -20,3 +20,5 @@ pagy:
   items_per_page: 10
 mailer:
   from: "xuantruonghy823@gmail.com"
+password_reset:
+  expired_time: 2
