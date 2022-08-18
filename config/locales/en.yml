@@ -79,6 +79,16 @@ en:
     user:
       delete: "Delete"
       you_sure: "You sure?"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow_text: "Follow"
+    unfollow:
+      unfollow_text: "Unfollow"
+    show_follow:
+      no_one: "No one"
   shared:
     error_messages:
       error: "error"
@@ -89,6 +99,9 @@ en:
       img_size_error: "Maximum file size is 5MB. Please choose a smaller file."
     user_info:
       view_profile: "view my profile"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     create:
       invalid_combination: "Invalid email/password combination"
@@ -149,3 +162,6 @@ en:
     micropost:
       valid_format: "must be a valid image format"
       should_less_than: "should be less than 5MB"
+  relationships:
+    destroy:
+      not_found_relationship: "Không tìm thấy mối liên hệ"

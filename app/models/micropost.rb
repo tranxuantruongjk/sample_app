@@ -11,6 +11,7 @@ class Micropost < ApplicationRecord
                            message: :should_less_than}
   delegate :name, to: :user
   scope :recent_posts, ->{order(created_at: :desc)}
+  scope :relate_post, ->(user_ids){where user_id: user_ids}
 
   def display_image
     image.variant resize_to_limit: Settings.micropost.resize_to_limit

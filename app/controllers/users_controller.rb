@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(index edit update destroy)
-  before_action :find_user, only: %i(show edit update destroy)
+  before_action :logged_in_user, except: %i(new create show)
+  before_action :find_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
 
@@ -49,6 +49,18 @@ class UsersController < ApplicationController
       flash[:danger] = t(".delete_failed")
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = t ".following"
+    @pagy, @users = pagy @user.following, items: Settings.pagy.items_per_page
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".followers"
+    @pagy, @users = pagy @user.followers, items: Settings.pagy.items_per_page
+    render :show_follow
   end
 
   private
