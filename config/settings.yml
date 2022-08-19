@@ -28,3 +28,5 @@ micropost:
   image_size: 5
   resize_to_limit: [500, 500]
   accept_path: "image/jpeg,image/gif,image/png"
+show_follow:
+  gravatar_size: 30

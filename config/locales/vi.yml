@@ -79,6 +79,16 @@ vi:
     user:
       delete: "Xóa"
       you_sure: "Bạn chắc chắn chứ?"
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    follow:
+      follow_text: "Theo dõi"
+    unfollow:
+      unfollow_text: "Hủy theo dõi"
+    show_follow:
+      no_one: "Không có ai"
   shared:
     error_messages:
       error: "lỗi"
@@ -89,7 +99,9 @@ vi:
       img_size_error: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
     user_info:
       view_profile: "xem hồ sơ"
-      micropost: "micropost"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   sessions:
     create:
       invalid_combination: "Email/Mật khẩu không tồn tại"
@@ -149,3 +161,6 @@ vi:
     micropost:
       valid_format: "cần phải đúng định dạng hình ảnh"
       should_less_than: "cần nhỏ hơn 5MB"
+  relationships:
+    destroy:
+      not_found_relationship: "Không tìm thấy mối liên hệ"
