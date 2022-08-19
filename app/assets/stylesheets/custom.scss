@@ -1,5 +1,6 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'color';
 
 /* universal */
 
@@ -29,7 +30,7 @@ textarea {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: $white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -37,7 +38,7 @@ textarea {
 }
 
 #logo:hover {
-  color: #fff;
+  color: $white;
   text-decoration: none;
 }
 
@@ -46,16 +47,16 @@ textarea {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
+  border-top: 1px solid $gray-medium-light;
+  color: $black-light;
 }
 
 footer a {
-  color: #555;
+  color: $black-medium;
 }
 
 footer a:hover {
-  color: #222;
+  color: $black;
 }
 
 footer small {
@@ -73,8 +74,6 @@ footer ul li {
 }
 
 /* mixins, variables, etc. */
-
-$gray-medium-light: #eaeaea;
 
 @mixin box-sizing {
   -moz-box-sizing: border-box;
@@ -132,7 +131,7 @@ aside {
 /* forms */
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $gray-medium;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -143,9 +142,9 @@ input {
 }
 
 #error_explanation {
-  color: red;
+  color: $red;
   ul {
-    color: red;
+    color: $red;
     margin: 0 0 30px 0;
   }
 }
@@ -180,5 +179,57 @@ input {
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
+  }
+}
+
+/* microposts */
+
+.microposts {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 10px 0;
+    border-top: 1px solid $gray-91;
+  }
+
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+  }
+
+  .content {
+    display: block;
+    margin-left: 60px;
+    img {
+      display: block;
+      padding: 5px 0;
+    }
+  }
+
+  .timestamp {
+    color: $gray-light;
+    display: block;
+    margin-left: 60px;
+  }
+
+  .gravatar {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}
+
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+span.image {
+  margin-top: 10px;
+  input {
+    border: 0;
   }
 }

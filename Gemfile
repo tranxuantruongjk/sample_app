@@ -6,24 +6,27 @@ ruby "3.1.2"
 gem "autoprefixer-rails"
 gem "bcrypt", "3.1.13"
 
+gem "active_storage_validations", "0.8.2"
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
 gem "figaro"
+gem "i18n-js", "~> 3.8", ">= 3.8.1"
+gem "image_processing", "1.12.2"
 gem "importmap-rails"
 gem "jbuilder"
+gem "mini_magick", "4.9.5"
 gem "mysql2", "~> 0.5"
 gem "pagy", "~> 5.10", ">= 5.10.1"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.5", ">= 6.1.5.1"
 gem "rails-i18n"
+gem "sassc-rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
+gem "turbolinks", "~> 5"
 gem "turbo-rails"
 gem "webpacker", "~> 5.0"
-gem "bootstrap"
-gem "jquery-rails"
-gem "sassc-rails"
 
 gem "bootsnap", require: false
 gem "net-smtp", require: false
@@ -37,6 +40,9 @@ group :development, :test do
 end
 
 group :development do
+  gem "listen", "~> 3.3"
+  gem "rack-mini-profiler", "~> 2.0"
+  gem "spring"
   gem "web-console"
 end
 
